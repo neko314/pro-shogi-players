@@ -1,0 +1,8 @@
+{
+  // language - current active spelling language
+  "cSpell.language": "en",
+    // words - list of words to be always considered correct
+  "cSpell.words": [
+    "shogi"
+  ],
+}
