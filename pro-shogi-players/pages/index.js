@@ -19,11 +19,9 @@ export default function Home({ allPostsData }) {
         <meta name="pro shogi players" content="pro shogi players list" />
         <link rel="icon" href="/shogi.svg" />
       </Head>
-      <ul>
-        {allPostsData.players.map(({ name, title, path}) => (
-          <Player key={name} name={name} title={title} path={path} />
-        ))}
-      </ul>
+      {allPostsData.players.map(({ name, title, path}) => (
+        <Player key={name} name={name} title={title} path={path} />
+      ))}
     </>
   );
 }
