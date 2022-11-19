@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { getSortedPostsData } from '../lib/players';
+import Player from './player';
 
 export function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -20,9 +21,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <ul>
         {allPostsData.players.map(({ name, title, path}) => (
-          <li key={name}>
-            <a href={`https://www.shogi.or.jp/${path}`}>{name} {title}</a>
-          </li>
+          <Player key={name} name={name} title={title} path={path} />
         ))}
       </ul>
     </>
