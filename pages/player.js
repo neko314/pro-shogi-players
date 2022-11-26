@@ -3,7 +3,7 @@ import { Grid } from "@nextui-org/react";
 
 export default function Player ({ name, title, path}) {
   return (
-    <Grid key={name}>
+    <Grid>
       <Card
         isPressable
         isHoverable
