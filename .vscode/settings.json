@@ -3,7 +3,10 @@
   "cSpell.language": "en",
     // words - list of words to be always considered correct
   "cSpell.words": [
-    "shogi"
+    "shogi",
+    "Pressable",
+    "Hoverable",
+    "nextui",
   ],
   "editor.formatOnSave": true,
 }
