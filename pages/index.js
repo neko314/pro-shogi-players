@@ -22,9 +22,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <Grid.Container gap={1} justify="center">
         {allPostsData.players.map(({ name, title, path}) => (
-          <Grid key={name}>
             <Player key={name} name={name} title={title} path={path} />
-          </Grid>
         ))}
       </Grid.Container>
     </>
