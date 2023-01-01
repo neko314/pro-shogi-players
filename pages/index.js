@@ -1,7 +1,6 @@
 import Head from 'next/head';
-import { Grid } from "@nextui-org/react";
+import { Grid, Card, Text } from "@nextui-org/react";
 import { getSortedPlayersData } from '../lib/players';
-import Player from './player';
 
 export function getStaticProps() {
   const allPlayersData = getSortedPlayersData();
@@ -10,6 +9,26 @@ export function getStaticProps() {
       allPlayersData,
     },
   };
+}
+
+export function Player ({ name, title, path}) {
+  return (
+    <Grid>
+      <Card
+        isPressable
+        isHoverable
+        variant="bordered"
+        css={{ mw: "200px" }}
+        onPress={() => {
+          window.open (`https://www.shogi.or.jp/${path}`, '_ blank')
+        }}
+      >
+        <Card.Body>
+          <Text>{name}<br />{title}</Text>
+        </Card.Body>
+      </Card>
+    </Grid>
+  );
 }
 
 export default function Home({ allPlayersData }) {
