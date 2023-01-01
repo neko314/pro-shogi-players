@@ -1,8 +1,9 @@
+import { GetStaticProps } from 'next';
 import Head from 'next/head';
 import { Grid, Card, Text } from "@nextui-org/react";
 import { getSortedPlayersData } from '../lib/players';
 
-export function getStaticProps() {
+export const getStaticProps: GetStaticProps = () => {
   const allPlayersData = getSortedPlayersData();
   return {
     props: {
@@ -11,7 +12,13 @@ export function getStaticProps() {
   };
 }
 
-export function Player ({ name, title, path}) {
+export type Player = {
+  name: string;
+  title: string;
+  path: string;
+}
+
+export function Player ({ name, title, path }: Player ) {
   return (
     <Grid>
       <Card
@@ -31,7 +38,13 @@ export function Player ({ name, title, path}) {
   );
 }
 
-export default function Home({ allPlayersData }) {
+export type AllPlayersDataType = {
+  allPlayersData: {
+    players: [Player]
+  }
+};
+
+export default function Home({ allPlayersData }: AllPlayersDataType) {
   return (
     <>
       <Head>
@@ -40,8 +53,10 @@ export default function Home({ allPlayersData }) {
         <link rel="icon" href="/shogi.svg" />
       </Head>
       <Grid.Container gap={1} justify="center">
-        {allPlayersData.players.map(({ name, title, path}) => (
-            <Player key={name} name={name} title={title} path={path} />
+        {allPlayersData.players.map(({ name, title, path}: Player) => (
+          <div key={name}>
+            <Player name={name} title={title} path={path} />
+          </div>
         ))}
       </Grid.Container>
     </>
