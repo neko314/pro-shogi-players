@@ -24,6 +24,7 @@
     "@typescript-eslint/eslint-plugin": "^5.47.1",
     "@typescript-eslint/parser": "^5.47.1",
     "cypress": "^12.2.0",
+    "eslint-plugin-cypress": "^2.12.1",
     "typescript": "^4.9.4"
   }
 }
