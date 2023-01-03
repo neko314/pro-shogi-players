@@ -54,7 +54,7 @@ export default function Home({ allPlayersData }: AllPlayersDataType) {
       </Head>
       <Grid.Container gap={1} justify="center">
         {allPlayersData.players.map(({ name, title, path}: Player) => (
-          <div key={name}>
+          <div key={name} data-e2e-player-id={`${name}${title}`}>
             <Player name={name} title={title} path={path} />
           </div>
         ))}
