@@ -2,13 +2,8 @@
   "players": [
     {
       "name": "藤井聡太",
-      "title": "竜王（王位・叡王・王将・棋聖）",
+      "title": "竜王・名人（王位・叡王・棋王・王将・棋聖）",
       "path": "/player/pro/307.html"
-    },
-    {
-      "name": "渡辺明",
-      "title": "名人（棋王）",
-      "path": "/player/pro/235.html"
     },
     {
       "name": "永瀬拓矢",
@@ -34,6 +29,11 @@
       "name": "森内俊之",
       "title": "九段(永世称号有資格者)",
       "path": "/player/pro/183.html"
+    },
+    {
+      "name": "渡辺明",
+      "title": "九段(永世称号有資格者)",
+      "path": "/player/pro/235.html"
     },
     {
       "name": "南芳一",
@@ -159,11 +159,6 @@
       "name": "富岡英作",
       "title": "八段",
       "path": "/player/pro/168.html"
-    },
-    {
-      "name": "中田宏樹",
-      "title": "八段",
-      "path": "/player/pro/173.html"
     },
     {
       "name": "中川大輔",
@@ -296,14 +291,34 @@
       "path": "/player/pro/188.html"
     },
     {
+      "name": "堀口一史座",
+      "title": "八段",
+      "path": "/player/pro/218.html"
+    },
+    {
+      "name": "中村太地",
+      "title": "八段",
+      "path": "/player/pro/261.html"
+    },
+    {
+      "name": "佐々木勇気",
+      "title": "八段",
+      "path": "/player/pro/280.html"
+    },
+    {
       "name": "室岡克彦",
-      "title": "七段",
+      "title": "八段",
       "path": "/player/pro/153.html"
     },
     {
-      "name": "堀口一史座",
-      "title": "七段",
-      "path": "/player/pro/218.html"
+      "name": "飯塚祐紀",
+      "title": "八段",
+      "path": "/player/pro/203.html"
+    },
+    {
+      "name": "村山慈明",
+      "title": "八段",
+      "path": "/player/pro/249.html"
     },
     {
       "name": "所司和晴",
@@ -326,11 +341,6 @@
       "path": "/player/pro/200.html"
     },
     {
-      "name": "飯塚祐紀",
-      "title": "七段",
-      "path": "/player/pro/203.html"
-    },
-    {
       "name": "小林裕士",
       "title": "七段",
       "path": "/player/pro/223.html"
@@ -349,11 +359,6 @@
       "name": "藤原直哉",
       "title": "七段",
       "path": "/player/pro/190.html"
-    },
-    {
-      "name": "村山慈明",
-      "title": "七段",
-      "path": "/player/pro/249.html"
     },
     {
       "name": "北島忠雄",
@@ -391,11 +396,6 @@
       "path": "/player/pro/187.html"
     },
     {
-      "name": "中村太地",
-      "title": "七段",
-      "path": "/player/pro/261.html"
-    },
-    {
       "name": "川上猛",
       "title": "七段",
       "path": "/player/pro/206.html"
@@ -429,11 +429,6 @@
       "name": "片上大輔",
       "title": "七段",
       "path": "/player/pro/251.html"
-    },
-    {
-      "name": "佐々木勇気",
-      "title": "七段",
-      "path": "/player/pro/280.html"
     },
     {
       "name": "西尾明",
@@ -546,6 +541,16 @@
       "path": "/player/pro/306.html"
     },
     {
+      "name": "増田康宏",
+      "title": "七段",
+      "path": "/player/pro/297.html"
+    },
+    {
+      "name": "大橋貴洸",
+      "title": "七段",
+      "path": "/player/pro/308.html"
+    },
+    {
       "name": "増田裕司",
       "title": "六段",
       "path": "/player/pro/225.html"
@@ -596,11 +601,6 @@
       "path": "/player/pro/258.html"
     },
     {
-      "name": "増田康宏",
-      "title": "六段",
-      "path": "/player/pro/297.html"
-    },
-    {
       "name": "阪口悟",
       "title": "六段",
       "path": "/player/pro/254.html"
@@ -609,16 +609,6 @@
       "name": "瀬川晶司",
       "title": "六段",
       "path": "/player/pro/259.html"
-    },
-    {
-      "name": "上野裕和",
-      "title": "六段",
-      "path": "/player/pro/238.html"
-    },
-    {
-      "name": "大橋貴洸",
-      "title": "六段",
-      "path": "/player/pro/308.html"
     },
     {
       "name": "石井健太郎",
@@ -671,6 +661,26 @@
       "path": "/player/pro/317.html"
     },
     {
+      "name": "渡辺和史",
+      "title": "六段",
+      "path": "/player/pro/319.html"
+    },
+    {
+      "name": "服部慎一郎",
+      "title": "六段",
+      "path": "/player/pro/322.html"
+    },
+    {
+      "name": "伊藤匠",
+      "title": "六段",
+      "path": "/player/pro/324.html"
+    },
+    {
+      "name": "本田奎",
+      "title": "六段",
+      "path": "/player/pro/315.html"
+    },
+    {
       "name": "島本亮",
       "title": "五段",
       "path": "/player/pro/247.html"
@@ -714,11 +724,6 @@
       "name": "上村亘",
       "title": "五段",
       "path": "/player/pro/288.html"
-    },
-    {
-      "name": "本田奎",
-      "title": "五段",
-      "path": "/player/pro/315.html"
     },
     {
       "name": "古森悠太",
@@ -766,24 +771,9 @@
       "path": "/player/pro/311.html"
     },
     {
-      "name": "渡辺和史",
-      "title": "五段",
-      "path": "/player/pro/319.html"
-    },
-    {
-      "name": "伊藤匠",
-      "title": "五段",
-      "path": "/player/pro/324.html"
-    },
-    {
       "name": "石川優太",
       "title": "五段",
       "path": "/player/pro/320.html"
-    },
-    {
-      "name": "服部慎一郎",
-      "title": "五段",
-      "path": "/player/pro/322.html"
     },
     {
       "name": "折田翔吾",
@@ -796,8 +786,13 @@
       "path": "/player/pro/313.html"
     },
     {
+      "name": "古賀悠聖",
+      "title": "五段",
+      "path": "/player/pro/326.html"
+    },
+    {
       "name": "山本博志",
-      "title": "四段",
+      "title": "五段",
       "path": "/player/pro/316.html"
     },
     {
@@ -809,11 +804,6 @@
       "name": "冨田誠也",
       "title": "四段",
       "path": "/player/pro/325.html"
-    },
-    {
-      "name": "古賀悠聖",
-      "title": "四段",
-      "path": "/player/pro/326.html"
     },
     {
       "name": "井田明宏",
@@ -854,6 +844,26 @@
       "name": "齊藤裕也",
       "title": "四段",
       "path": "/player/pro/334.html"
+    },
+    {
+      "name": "小山怜央",
+      "title": "四段",
+      "path": "/player/pro/335.html"
+    },
+    {
+      "name": "小山直希",
+      "title": "四段",
+      "path": "/player/pro/336.html"
+    },
+    {
+      "name": "森本才跳",
+      "title": "四段",
+      "path": "/player/pro/337.html"
+    },
+    {
+      "name": "柵木幹太",
+      "title": "四段",
+      "path": "/player/pro/338.html"
     }
   ]
 }
