@@ -12,7 +12,7 @@ doc = Nokogiri::HTML(URI.open("https://www.shogi.or.jp/player/"))
 
 players_nodes = doc.search("div .inner")
 nodes = players_nodes.search("div .text")
-File.open("players.json", "w") do |f|
+File.open("./data/players.json", "w") do |f|
   players = nodes.map do |node|
     path = node.children.children.first.attributes["href"].value # path to detail
     name = node.search(".ttl").children.children.text # name
@@ -22,8 +22,8 @@ File.open("players.json", "w") do |f|
       name: "#{name}",
       title: "#{title}",
       path: "#{path}",
-    }.to_json
+    }
   end
     
-  f.write({players: players}.to_json)
+  f.write(JSON.pretty_generate({ players: players }))
 end
