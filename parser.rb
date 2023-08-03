@@ -17,13 +17,13 @@ File.open("./data/players.json", "w") do |f|
     path = node.children.children.first.attributes["href"].value # path to detail
     name = node.search(".ttl").children.children.text # name
     title = node.search("p").last.children.text        # title, class
-    
+
     {
       name: "#{name}",
       title: "#{title}",
       path: "#{path}",
     }
   end
-    
+
   f.write(JSON.pretty_generate({ players: players }))
 end
